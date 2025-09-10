@@ -5,3 +5,4 @@ from .logistic_regression import LogisticClassifier
 from .decision_tree import DecisionTreeModel
 from .knn import KNNModel
 from .random_forest import RandomForestModel
+from .svm import SVMModel
