@@ -8,6 +8,7 @@ aek_auto_mlbuilder/decision_tree.py
 aek_auto_mlbuilder/knn.py
 aek_auto_mlbuilder/linear_regression.py
 aek_auto_mlbuilder/logistic_regression.py
+aek_auto_mlbuilder/random_forest.py
 aek_auto_mlbuilder/utils.py
 aek_auto_mlbuilder.egg-info/PKG-INFO
 aek_auto_mlbuilder.egg-info/SOURCES.txt
