@@ -7,3 +7,4 @@ from .knn import KNNModel
 from .random_forest import RandomForestModel
 from .svm import SVMModel
 from .naive_bayes import NaiveBayesModel
+from .kmeans import KMeansModel

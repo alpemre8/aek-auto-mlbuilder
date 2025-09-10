@@ -5,7 +5,7 @@ class RandomForestModel(BaseModel):
     """
     Random Forest model for classification or regression
     Use task either "classification" or "regression"
-    brute force method is using
+    brute force method has been using
     """
     def __init__(self, task="classification", param_grid=None):
         super().__init__()

@@ -6,7 +6,7 @@ class NaiveBayesModel(BaseModel):
     """
     Naive bayes model supporting gaussianNB, multinomialNB, bernoulliNB
     use 'nb_type' param to specify the variant: gaussian, multinomial, bernoulli
-    brute force hyperparameter search is using
+    brute force hyperparameter search has been using
     """
     def __init__(self, nb_type="gaussian", param_grid=None):
         super().__init__()
