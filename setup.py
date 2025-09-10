@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="aek-auto-mlbuilder",        # PyPI dağıtım adı
-    version="0.6.0",
+    name="aek-auto-mlbuilder",        
+    version="0.6.1",
     description="Automatic ML model builder in Python",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
@@ -16,5 +16,5 @@ setup(
         "scikit-learn>=1.0",
         "numpy>=1.23",
         "pandas>=1.5"
-    ],  # bağımlılıkları buraya eklersin
+    ], 
 )
