@@ -3,6 +3,7 @@ README.md
 pyproject.toml
 setup.py
 aek_auto_mlbuilder/__init__.py
+aek_auto_mlbuilder/agglomerative.py
 aek_auto_mlbuilder/base.py
 aek_auto_mlbuilder/dbscan.py
 aek_auto_mlbuilder/decision_tree.py
