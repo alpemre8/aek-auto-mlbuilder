@@ -16,7 +16,7 @@ class KMeansModel(BaseModel):
             "max_iter": [300, 500]
         }
 
-    def train(self, X, y):
+    def train(self, X):
         best_score = -float("inf")
         best_model = None
 
@@ -31,7 +31,7 @@ class KMeansModel(BaseModel):
                             max_iter=max_iter,
                             random_state=42
                         )
-                        model.fit(X, y)
+                        model.fit(X)
                         score = -model.inertia_
                         if score > best_score:
                             best_score = score
