@@ -8,7 +8,7 @@ class SVMModel(BaseModel):
     """
     support vector machine for classification and regression
     use task parameter for "regression" or "classification"
-    brute force has been using
+    brute force is being used
     """
     def __init__(self, task="classification", param_grid=None):
         super().__init__()

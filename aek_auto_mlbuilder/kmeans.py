@@ -5,7 +5,7 @@ from .base import BaseModel
 class KMeansModel(BaseModel):
     """
     K-Means clustering model (unsupervised learning)
-    Brute force method has been using
+    Brute force method is being used
     """
     def __init__(self, param_grid=None):
         super().__init__()

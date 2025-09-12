@@ -8,7 +8,7 @@ class KNNModel(BaseModel):
     """
     KNN model for classification for classification or regression
     Use "task" for "classification" or "regression"
-    Brute-force search has been using
+    Brute-force search is being used
     """
     def __init__(self, task="classification", param_grid=None):
         super().__init__()
