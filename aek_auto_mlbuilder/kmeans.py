@@ -17,7 +17,7 @@ class KMeansModel(BaseModel):
         }
 
     def train(self, X):
-        best_score = -float("inf")
+        best_score = float("inf")
         best_model = None
 
         for n_clusters in self.param_grid["n_clusters"]:
@@ -32,8 +32,8 @@ class KMeansModel(BaseModel):
                             random_state=42
                         )
                         model.fit(X)
-                        score = -model.inertia_
-                        if score > best_score:
+                        score = model.inertia_
+                        if score < best_score:
                             best_score = score
                             best_model = model
         self.best_model = best_model
