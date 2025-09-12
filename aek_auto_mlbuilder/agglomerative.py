@@ -7,7 +7,7 @@ class AgglomerativeModel(BaseModel):
     brute force search is being used
     """
 
-    def __init(self, param_grid=None):
+    def __init__(self, param_grid=None):
         super().__init__()
         self.param_grid = param_grid or {
             "n_clusters": [2, 3, 4, 5, 6],
