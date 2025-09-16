@@ -15,6 +15,7 @@ aek_auto_mlbuilder/lasso_regression.py
 aek_auto_mlbuilder/linear_regression.py
 aek_auto_mlbuilder/logistic_regression.py
 aek_auto_mlbuilder/naive_bayes.py
+aek_auto_mlbuilder/perceptron.py
 aek_auto_mlbuilder/random_forest.py
 aek_auto_mlbuilder/rigde_regression.py
 aek_auto_mlbuilder/svm.py
