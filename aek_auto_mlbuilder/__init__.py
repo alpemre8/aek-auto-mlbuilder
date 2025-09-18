@@ -15,3 +15,4 @@ from .lasso_regression import LassoModel
 from .elastic_net import ElasticNetModel
 from .bayesian_ridge import BayesianRidgeModel
 from .perceptron import PerceptronModel
+from .nusvc import NuSVCModel
